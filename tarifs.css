@@ -1,0 +1,106 @@
+.tarifs-cont {
+    background-color: var(--dark-violet);
+    padding: 9.125rem 12.5rem;
+    color: var(--grey);
+    font-size: 0.8rem;
+}
+
+.tarifs .tarifs1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.tarifs h1 {
+    font-size: 3.438rem;
+    font-family: var(--ff-Montserrat);
+    color: var(--violet);
+}
+
+.tarifs2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6.438rem;
+}
+
+.services {
+    padding: 0 2.375rem 3.313rem 0;
+    border-style: solid;
+    border-color: var(--violet);
+    border-width: 0 1px 1px 0;
+}
+
+.services h2 {
+    font-size: 1.25rem;
+    font-family: var(--ff-Montserrat);
+    color: var(--violet);
+    margin-bottom: 1.313rem;
+}
+
+.services .prix {
+    font-size: 1rem;
+    color: var(--violet);
+    margin: 2.188rem 0 1.063rem 0;
+}
+
+.services .service {
+    font-size: 0.625rem;
+}
+
+.tableaux h2{
+    margin: 5.313rem 0 2.375rem 0;
+    font-family: var(--ff-Montserrat);
+    color: var(--violet);
+    font-size: 2.188rem;
+}
+
+table th {
+    font-family: var(--ff-Montserrat);
+    font-size: 1rem;
+    color: var(--white);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid var(--violet);
+    padding: 0.6rem;
+} 
+
+td {
+    padding: 2.75rem 4.563rem;
+}
+
+@media (max-width: 62.25em) {
+    .tarifs-cont {
+        padding: 6rem 2rem;
+    } 
+
+    .tarifs .tarifs1 {
+        display: block;
+    }
+
+    .tarifs h1 {
+        font-size: 1.688rem;
+        text-align: center;
+    }   
+
+    h2 {
+        text-align: start;
+    }
+
+    .tableaux, .cta{
+        display: none;
+    }
+
+    
+    .tarifs2 {
+        grid-template-columns: 1fr;
+        gap: 6.438rem;
+    }
+}
